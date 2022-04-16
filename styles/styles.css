@@ -72,16 +72,16 @@ body {
 
 .hero {
   display: flex;
-background-image: url('../images/image_first.jpg');
-background-size: hover; 
-height: 700px;
-}
+  background-image: url(../images/image_first.jpg);
+  background-size: hover;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+ }
 
 .main-info-container {
   display: flex;
-  background-color: #131313;
-  ;
-  opacity: .6;
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -96,6 +96,18 @@ height: 700px;
   color: white;
   width: 44%;
   margin-left: 10%;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-over {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .turkey {
@@ -202,8 +214,10 @@ p {
 }
 
 .karusel {
-  display: block;
+  display: flex;
   font-size: 200%;
+  margin-top: 90px;
+  margin-bottom: 0px;
 }
 
 .oncont {
@@ -230,6 +244,18 @@ p {
   height: 434px;
   max-width: 817px;
   margin-top: -217px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-2 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 434px;
+  max-width: 817px;
+  margin-top: -434px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
@@ -924,4 +950,13 @@ flex-direction: column;
 
 .insta {
   margin-left: 15px;
+}
+
+
+.phone :hover {
+  color:#E3B873;
+}
+
+.phone a {
+  color:#E3B873
 }
