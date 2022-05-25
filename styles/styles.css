@@ -92,10 +92,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  /*align-items: center;*/
   color: white;
-  width: 44%;
-  margin-left: 10%;
+  width: 35%;
+  margin-left: 134px;
+  font-family: "Yeseva one";
   position: relative;
   z-index: 2;
 }
@@ -110,10 +111,16 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.button-1 {
+  margin-left: 0px;
+}
 .turkey {
   font-size: 40px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-transform: uppercase;
 }
+
 .main-info-buttons {
   display: flex;
 }
@@ -121,7 +128,11 @@ body {
 .main-info-buttons button {
   color: white;
   padding: 1em;
-  margin: .5em;
+  /*margin: .5em;*/
+  margin-left: 0px;
+  margin-right: 1em;
+  margin-top: .5em;
+  margin-bottom: .5em;
   border: 1px white solid;
   background: none;
 }
@@ -268,7 +279,7 @@ p {
 
 .video-2 {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.7);
+  background: color #131313;;
   height: 434px;
   max-width: 817px;
   margin-top: -434px;
@@ -316,6 +327,11 @@ p {
   font-size: 13px;
 }
 
+.knopka-item {
+  display:flex;
+  flex-direction: column;
+}
+
 .form-item-1 {
  display: flex;
  flex-direction: column;
@@ -348,6 +364,7 @@ input:focus {
  display: flex;
  justify-content: center;
  margin-top: 39px;
+ margin-left: -220%;
 }
 
 .container5 {
@@ -498,6 +515,7 @@ input:focus {
  justify-content: center;
  margin-left: 180px;
  padding-top: 102px;
+ font-family: "Yeseva one";
 }
 
 .st-one {
@@ -508,11 +526,12 @@ input:focus {
   border-radius: 50%;
   justify-content: center;
   font-size:18px;
+  font-weight:bold;
   align-items: center;
   margin-right: 33px;
   position: absolute;
   min-width: 41px;
-} 
+}
 
 h4 {
   margin-left: 70px;
@@ -761,6 +780,7 @@ font-size: 20px;
 .flat {
   color: #959595;
   line-height: 23px;
+  padding: 12px;
 }
 
 .faces {
@@ -769,18 +789,25 @@ font-size: 20px;
 }
 
 .faces-item-1 {
-max-width: 324px;
+max-width: 380px;
 display: flex;
 flex-direction: column;
+box-shadow: 0px 0px 10px 5px rgba(97, 94, 94, 0.1);
 }
  
 .lico {
   display: flex;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  font-family: "Yeseva one";
+  font-size: 18px;
 }
 
 .flor {
   margin-left: -10px;
   margin-top: 50px;
+  
 }
 
 .black-form-3 {
@@ -937,6 +964,12 @@ flex-direction: column;
   align-items: center;
 }
 
+.map-icons-mobyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .karta {
   max-width: 70%;
   max-height: 500px;
@@ -948,13 +981,13 @@ flex-direction: column;
 }
 
 .bbb {
-  max-width: 30%;
+  max-width: 80%;
   text-align: center;
 }
 
 .footer {
   background-color: #181818;
-  margin-top: 5px;
+  margin-top: -5px;
   z-index: 3;
   height: 133px;
   padding-top: 40px;
@@ -1021,9 +1054,9 @@ flex-direction: column;
 
   }
   .turkey  {
-    font-size: 30px;
+    font-size: 26px;
     width: 340px;
-    margin-top: 40px;
+    margin-top: 70px;
     margin-left: 0px;
     margin-bottom: 30px;
   }
@@ -1054,6 +1087,7 @@ flex-direction: column;
   .button-1 {
     width: 338px;
     height: 51px;
+    margin-left: 0px;
   }
 
   .complet {
@@ -1103,7 +1137,7 @@ flex-direction: column;
   }
   
   .video-1 {
-    min-height:207px ;
+    height:207px ;
     min-width: 340px;
     margin-left: 18px;
     margin-right: 18px;
@@ -1290,12 +1324,28 @@ flex-direction: column;
   }
   
   .bbb {
-    min-width: 100%;
+    min-width: 90%;
   }
 
   .map-icons-mobyle {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .strelki {
+    position: absolute;
+    display: flex;
+    width: 330px;
+    justify-content: space-between;
+    margin-top: 190px;
+  }
+
+  .only-a {
+    margin-bottom: 70px;
+  }
+
+  #whiteco {
+    margin: 8% auto;
   }
 }
